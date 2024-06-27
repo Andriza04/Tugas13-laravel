@@ -74,9 +74,9 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item">
             <a href="/" class="nav-link">
-              <i class="nav-icon fas fa-table"></i>
+              <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Table
+                Dashboard
               </p>
             </a>
           </li>

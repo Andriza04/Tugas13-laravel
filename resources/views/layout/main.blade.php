@@ -74,9 +74,9 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item">
             <a href="/" class="nav-link">
-              <i class="nav-icon fas fa-table"></i>
+              <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Table
+                Dashboard
               </p>
             </a>
           </li>
@@ -102,7 +102,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>DataTables</h1>
+            <h1>Tables</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
