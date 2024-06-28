@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCastTable extends Migration
+class CreateCastsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateCastTable extends Migration
      */
     public function up()
     {
-        Schema::create('cast', function (Blueprint $table) {
+        Schema::create('casts', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('nama', 255);
+            $table->string('name', 255);
             $table->text('bio');
             $table->integer('umur');
+            $table->string('updated_at', 255);
+            $table->string('created_at', 255);
         });
     }
 
@@ -28,6 +30,6 @@ class CreateCastTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cast');
+        Schema::dropIfExists('casts');
     }
 }
